@@ -8,9 +8,9 @@ Add the script to your page or use browserify (highly recommended) and require i
 
     svgLoad([{
         target: '.img',
-          url: 'test/assets/test',
-          callback: function() {
-            var hOne = document.querySelector('h1');
-            hOne.innerHTML = 'It worked!';
-          }
+        url: 'test/assets/test',
+        callback: function() {
+          var hOne = document.querySelector('h1');
+          hOne.innerHTML = 'It worked!';
+        }
       }])
