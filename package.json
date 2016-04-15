@@ -1,7 +1,7 @@
 {
   "name": "svgload",
   "version": "1.0.0",
-  "description": "Simple function that detects SVG support and appends the SVG or the png fallback to the document",
+  "description": "Simple class that detects SVG support and appends SVG or png fallback to the document",
   "main": "svg-load.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
