@@ -4,7 +4,7 @@ Simple function that detects SVG support and appends the SVG or the png fallback
 The library loads and injects SVG files inline with support for fallback to a png file in case the browser doesn't support SVG.
 
 ##How to use it
-Add the script to your page or use browserify (highly recommended) and require it. I recomend using npm as your packge managerto make your life easier.
+Add the script to your page or use browserify (highly recommended) and require it. I recomend using npm as your package manager to make your life easier.
 
     svgLoad([{
         target: '.img',
