@@ -1,0 +1,30 @@
+{
+  "name": "svgload",
+  "version": "1.0.0",
+  "description": "Simple function that detects SVG support and appends the SVG or the png fallback to the document",
+  "main": "svg-load.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eltonmesquita/svgload.git"
+  },
+  "keywords": [
+    "svg",
+    "asset",
+    "load"
+  ],
+  "author": "Elton Mesquita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eltonmesquita/svgload/issues"
+  },
+  "homepage": "https://github.com/eltonmesquita/svgload#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-connect": "^1.0.1",
+    "uglify": "^0.1.5"
+  }
+}
