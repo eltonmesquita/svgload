@@ -1,7 +1,7 @@
 /**
  * Function to load SVG safely using AJAX, including fallback to png files when
  * SVG is not supported
- * 
+ *
  * @param {Object[]}  list    List of objects with parameters for each file
  */
 module.exports = function(list) {
@@ -44,7 +44,7 @@ module.exports = function(list) {
       svgLoad(target, url);
     } else {
       pngLoad(target, url);
-    };
+    }
     if (typeof callback == "function") callback();
   };
 
