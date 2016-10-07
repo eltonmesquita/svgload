@@ -1,6 +1,6 @@
 {
   "name": "svgload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple class that detects SVG support and appends SVG or png fallback to the document",
   "main": "svgLoad.js",
   "scripts": {
