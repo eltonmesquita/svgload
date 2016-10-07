@@ -2,7 +2,12 @@
  * Function to load SVG safely using AJAX, including fallback to png files when
  * SVG is not supported
  *
- * @param {Object[]}  list    List of objects with parameters for each file
+ * @param {Object} list     - List of objects with parameters for each file
+ * @param {string} target   - The element on the page that'll get the image injected
+ * @param {string} url      - The url to the asset, without the file extension
+ *                            like: '/asets/image'
+ * @param {string} callback - A callback function that'll be executed after each
+ *                            element is injected
  */
 module.exports = function(list) {
   var self   = this;
